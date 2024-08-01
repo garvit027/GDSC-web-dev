@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    height: 55px;
+    width: 95%;
+    border-bottom: 1px grey solid;
+    display: inline-flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+.head-list li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px;
+    padding: 10px;
+}
+.head-list li a{
+    text-decoration: none;
+    color: black;
+}
+ .logo{
+    height: 50px;
+    width: 40%;
+}
+.init{
+    background-image:url(Untitled\ design\ \(3\)_ZCH8unE.webp) ;
+    width: 100%;
+    height: 650px;
+}
+.about{
+    margin: 25px;
+    padding: 25px; 
+}
+.about .heading-1{
+    margin:auto;
+    padding: 25px;
+    text-indent: 1.5;
+}
+.about .content-1{
+    margin:auto;
+    padding: 25px;
+    text-indent: 1.5;
+}
+.about .list{
+    margin: auto;
+    padding: 25px;
+}
+.Events-1 {
+    margin: 25px;
+    padding:25px;
+}
+.Events-1 .content-2{
+    margin:25px;
+    padding: 25px;
+}
+.Events-2{
+    margin: 25px;
+    padding: 25px;
+}
+.Events-2 .flex{
+    display: flex;
+    justify-content: space-evenly;
+    height: 250px;
+    width: 100%;
+}
+.Events-2 .flex .flex-container{
+    height: 200px;
+    width: 200%;  
+    padding: 15px;
+    margin: 15px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.Events-2 .flex .flex-container img{
+    height:100%;
+    width:100%;
+}
+footer{
+    border-top: 1px solid grey;
+    margin: 25px;
+    padding: 25px;
+}
+footer p {
+    font-weight: bold;
+}
+.foot .foot-root ul {
+    list-style: none;
+}
+.media{
+    text-decoration: none;
+    color: black;
+}
+.foot{
+    display: flex;
+justify-content: space-between;
+}
+.foot-root{
+    display: inline-flex;
+    justify-content: space-between;
+}
+.foot-root ul li {
+    display: inline-block;
+    margin: 5px;
+    padding: 5px;
+}
